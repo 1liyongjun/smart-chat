@@ -1,1 +1,204 @@
-J3VzZSBjbGllbnQnCgppbXBvcnQgeyB1c2VTdGF0ZSwgdXNlRWZmZWN0LCB1c2VSZWYgfSBmcm9tICdyZWFjdCcKaW1wb3J0IENoYXRXaWRnZXQgZnJvbSAnQC9jb21wb25lbnRzL0NoYXRXaWRnZXQnCgpjb25zdCBBUElfVVJMID0gcHJvY2Vzcy5lbnYuTkVYVF9QVUJMSUNfQVBJX1VSTCB8fCAnaHR0cDovL2xvY2FsaG9zdDo4MDAwJwoKaW50ZXJmYWNlIE1lc3NhZ2UgewogIHJvbGU6ICd1c2VyJyB8ICdhc3Npc3RhbnQnCiAgY29udGVudDogc3RyaW5nCn0KCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFdpZGdldFBhZ2UoKSB7CiAgY29uc3QgW21lc3NhZ2VzLCBzZXRNZXNzYWdlc10gPSB1c2VTdGF0ZTxNZXNzYWdlW10+KFtdKQogIGNvbnN0IFtpbnB1dCwgc2V0SW5wdXRdID0gdXNlU3RhdGUoJycpCiAgY29uc3QgW2xvYWRpbmcsIHNldExvYWRpbmddID0gdXNlU3RhdGUoZmFsc2UpCiAgY29uc3QgW3Zpc2l0b3JJZF0gPSB1c2VTdGF0ZSgoKSA9PiBsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgnd2lkZ2V0X3Zpc2l0b3JfaWQnKSB8fCAoKCkgPT4gewogICAgY29uc3QgaWQgPSAndl8nICsgTWF0aC5yYW5kb20oKS50b1N0cmluZygzNikuc2xpY2UoMiwgMTEpCiAgICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbSgnd2lkZ2V0X3Zpc2l0b3JfaWQnLCBpZCkKICAgIHJldHVybiBpZAogIH0pKCkpCiAgY29uc3QgW2NvbnZlcnNhdGlvbklkLCBzZXRDb252ZXJzYXRpb25JZF0gPSB1c2VTdGF0ZSgnJykKICBjb25zdCBtZXNzYWdlc0VuZFJlZiA9IHVzZVJlZjxIVE1MRGl2RWxlbWVudD4obnVsbCkKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIG1lc3NhZ2VzRW5kUmVmLmN1cnJlbnQ/LnNjcm9sbEludG9WaWV3KHsgYmVoYXZpb3I6ICdzbW9vdGgnIH0pCiAgfSwgW21lc3NhZ2VzXSkKCiAgY29uc3Qgc2VuZE1lc3NhZ2UgPSBhc3luYyAoKSA9PiB7CiAgICBpZiAoIWlucHV0LnRyaW0oKSB8fCBsb2FkaW5nKSByZXR1cm4KICAgIAogICAgY29uc3QgdXNlck1lc3NhZ2U6IE1lc3NhZ2UgPSB7IHJvbGU6ICd1c2VyJywgY29udGVudDogaW5wdXQgfQogICAgc2V0TWVzc2FnZXMocHJldiA9PiBbLi4ucHJldiwgdXNlck1lc3NhZ2VdKQogICAgY29uc3QgY3VycmVudElucHV0ID0gaW5wdXQKICAgIHNldElucHV0KCcnKQogICAgc2V0TG9hZGluZyh0cnVlKQoKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKGAke0FQSV9VUkx9L2FwaS9jaGF0YCwgewogICAgICAgIG1ldGhvZDogJ1BPU1QnLAogICAgICAgIGhlYWRlcnM6IHsgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJyB9LAogICAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgCiAgICAgICAgICBtZXNzYWdlOiBjdXJyZW50SW5wdXQsIAogICAgICAgICAgdmlzaXRvcl9pZDogdmlzaXRvcklkLAogICAgICAgICAgY29udmVyc2F0aW9uX2lkOiBjb252ZXJzYXRpb25JZCB8fCB1bmRlZmluZWQKICAgICAgICB9KQogICAgICB9KQogICAgICBjb25zdCBkYXRhID0gYXdhaXQgcmVzLmpzb24oKQogICAgICAKICAgICAgaWYgKGRhdGEuY29udmVyc2F0aW9uX2lkICYmICFjb252ZXJzYXRpb25JZCkgewogICAgICAgIHNldENvbnZlcnNhdGlvbklkKGRhdGEuY29udmVyc2F0aW9uX2lkKQogICAgICB9CiAgICAgIAogICAgICBzZXRNZXNzYWdlcyhwcmV2ID0+IFsuLi5wcmV2LCB7IHJvbGU6ICdhc3Npc3RhbnQnLCBjb250ZW50OiBkYXRhLmFuc3dlciB9XSkKICAgIH0gY2F0Y2ggKGVycikgewogICAgICBzZXRNZXNzYWdlcyhwcmV2ID0+IFsuLi5wcmV2LCB7IAogICAgICAgIHJvbGU6ICdhc3Npc3RhbnQnLCAKICAgICAgICBjb250ZW50OiAn5oqx5q2J77yM5pyN5Yqh5pqC5pe25LiN5Y+v55So77yM6K+356iN5ZCO6YeN6K+V44CCJyAKICAgICAgfV0pCiAgICB9IGZpbmFsbHkgewogICAgICBzZXRMb2FkaW5nKGZhbHNlKQogICAgfQogIH0KCiAgcmV0dXJuICgKICAgIDxkaXYgc3R5bGU9e3sgbWluSGVpZ2h0OiAnMTAwdmgnLCBkaXNwbGF5OiAnZmxleCcsIGZsZXhEaXJlY3Rpb246ICdjb2x1bW4nIH19PgogICAgICB7Lyog5aS06YOoICovfQogICAgICA8aGVhZGVyIHN0eWxlPXt7CiAgICAgICAgYmFja2dyb3VuZDogJ2xpbmVhci1ncmFkaWVudCgxMzVkZWcsICM2NjdFRUEgMCUsICM3NjRCQTIgMTAwJSknLAogICAgICAgIGNvbG9yOiAnd2hpdGUnLAogICAgICAgIHBhZGRpbmc6ICcycmVtJwogICAgICB9fT4KICAgICAgICA8ZGl2IHN0eWxlPXt7IG1heFdpZHRoOiAnODAwcHgnLCBtYXJnaW46ICcwIGF1dG8nLCB0ZXh0QWxpZ246ICdjZW50ZXInIH19PgogICAgICAgICAgPGgxIHN0eWxlPXt7IGZvbnRTaXplOiAnMnJlbScsIGZvbnRXZWlnaHQ6IDcwMCwgbWFyZ2luQm90dG9tOiAnMC41cmVtJyB9fT7wn6SWIOaZuuiDveWuouacjeS4reW/gzwvaDE+CiAgICAgICAgICA8cCBzdHlsZT17eyBvcGFjaXR5OiAwLjkgfX0+5Z+65LqOIE1pbmlNYXggQUkg55qE55+l6K+G5bqT6Zeu562U57O757ufPC9wPgogICAgICAgIDwvZGl2PgogICAgICA8L2hlYWRlcj4KCiAgICAgIHsvKiDogYrlpKnljLrln58gKi99CiAgICAgIDxtYWluIHN0eWxlPXt7IGZsZXg6IDEsIG1heFdpZHRoOiAnODAwcHgnLCBtYXJnaW46ICcwIGF1dG8nLCB3aWR0aDogJzEwMCUnLCBwYWRkaW5nOiAnMnJlbScsIGRpc3BsYXk6ICdmbGV4JywgZmxleERpcmVjdGlvbjogJ2NvbHVtbicgfX0+CiAgICAgICAgPGRpdiBzdHlsZT17ewogICAgICAgICAgZmxleDogMSwKICAgICAgICAgIGJvcmRlcjogJzFweCBzb2xpZCAjRTVFN0VCJywKICAgICAgICAgIGJvcmRlclJhZGl1czogJzFyZW0nLAogICAgICAgICAgb3ZlcmZsb3c6ICdoaWRkZW4nLAogICAgICAgICAgZGlzcGxheTogJ2ZsZXgnLAogICAgICAgICAgZmxleERpcmVjdGlvbjogJ2NvbHVtbicsCiAgICAgICAgICBiYWNrZ3JvdW5kOiAnd2hpdGUnCiAgICAgICAgfX0+CiAgICAgICAgICB7Lyog5raI5oGv5YiX6KGoICovfQogICAgICAgICAgPGRpdiBzdHlsZT17eyBmbGV4OiAxLCBvdmVyZmxvdzogJ2F1dG8nLCBwYWRkaW5nOiAnMS41cmVtJywgbWluSGVpZ2h0OiAnNDAwcHgnIH19PgogICAgICAgICAgICB7bWVzc2FnZXMubGVuZ3RoID09PSAwICYmICgKICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IHRleHRBbGlnbjogJ2NlbnRlcicsIGNvbG9yOiAnIzlDQTNBRicsIG1hcmdpblRvcDogJzNyZW0nIH19PgogICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBmb250U2l6ZTogJzNyZW0nLCBtYXJnaW5Cb3R0b206ICcxcmVtJyB9fT7wn5KsPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGZvbnRTaXplOiAnMS4xcmVtJywgbWFyZ2luQm90dG9tOiAnMC41cmVtJyB9fT7mrKLov47mnaXliLDmmbrog73lrqLmnI08L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgZm9udFNpemU6ICcwLjlyZW0nIH19PgogICAgICAgICAgICAgICAgICDmiJHlj6/ku6Xlm57nrZTlhbPkuo7kuqflk4HjgIHmnI3liqHnmoTpl67popg8YnIvPgogICAgICAgICAgICAgICAgICDovpPlhaXmgqjnmoTpl67popjlvIDlp4vlr7nor50KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICApfQogICAgICAgICAgICAKICAgICAgICAgICAge21lc3NhZ2VzLm1hcCgobXNnLCBpKSA9PiAoCiAgICAgICAgICAgICAgPGRpdiBrZXk9e2l9IHN0eWxlPXt7CiAgICAgICAgICAgICAgICBkaXNwbGF5OiAnZmxleCcsCiAgICAgICAgICAgICAgICBqdXN0aWZ5Q29udGVudDogbXNnLnJvbGUgPT09ICd1c2VyJyA/ICdmbGV4LWVuZCcgOiAnZmxleC1zdGFydCcsCiAgICAgICAgICAgICAgICBtYXJnaW5Cb3R0b206ICcxcmVtJwogICAgICAgICAgICAgIH19PgogICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17ewogICAgICAgICAgICAgICAgICBtYXhXaWR0aDogJzc1JScsCiAgICAgICAgICAgICAgICAgIHBhZGRpbmc6ICcxcmVtIDEuMjVyZW0nLAogICAgICAgICAgICAgICAgICBib3JkZXJSYWRpdXM6ICcxcmVtJywKICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogbXNnLnJvbGUgPT09ICd1c2VyJyA/ICdsaW5lYXItZ3JhZGllbnQoMTM1ZGVnLCAjNjY3RUVBIDAlLCAjNzY0QkEyIDEwMCUpJyA6ICcjRjNGNEY2JywKICAgICAgICAgICAgICAgICAgY29sb3I6IG1zZy5yb2xlID09PSAndXNlcicgPyAnd2hpdGUnIDogJyMxMTE4MjcnLAogICAgICAgICAgICAgICAgICBib3JkZXJCb3R0b21SaWdodFJhZGl1czogbXNnLnJvbGUgPT09ICd1c2VyJyA/ICcwLjI1cmVtJyA6ICcxcmVtJywKICAgICAgICAgICAgICAgICAgYm9yZGVyQm90dG9tTGVmdFJhZGl1czogbXNnLnJvbGUgPT09ICd1c2VyJyA/ICcxcmVtJyA6ICcwLjI1cmVtJywKICAgICAgICAgICAgICAgICAgZm9udFNpemU6ICcwLjk1cmVtJywKICAgICAgICAgICAgICAgICAgbGluZUhlaWdodDogMS42LAogICAgICAgICAgICAgICAgICB3aGl0ZVNwYWNlOiAncHJlLXdyYXAnLAogICAgICAgICAgICAgICAgICB3b3JkQnJlYWs6ICdicmVhay13b3JkJywKICAgICAgICAgICAgICAgICAgYm94U2hhZG93OiAnMCAxcHggM3B4IHJnYmEoMCwwLDAsMC4xKScKICAgICAgICAgICAgICAgIH19PgogICAgICAgICAgICAgICAgICB7bXNnLmNvbnRlbnR9CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIAogICAgICAgICAgICB7bG9hZGluZyAmJiAoCiAgICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBkaXNwbGF5OiAnZmxleCcsIGFsaWduSXRlbXM6ICdjZW50ZXInLCBnYXA6ICcwLjVyZW0nLCBjb2xvcjogJyM5Q0EzQUYnLCBwYWRkaW5nOiAnMC41cmVtIDAnIH19PgogICAgICAgICAgICAgICAgPGRpdiBzdHlsZT17ewogICAgICAgICAgICAgICAgICB3aWR0aDogJzhweCcsIGhlaWdodDogJzhweCcsIGJvcmRlclJhZGl1czogJzUwJScsIGJhY2tncm91bmQ6ICcjOUNBM0FGJywKICAgICAgICAgICAgICAgICAgYW5pbWF0aW9uOiAndHlwaW5nIDFzIGluZmluaXRlJwogICAgICAgICAgICAgICAgfX0gLz4KICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgd2lkdGg6ICc4cHgnLCBoZWlnaHQ6ICc4cHgnLCBib3JkZXJSYWRpdXM6ICc1MCUnLCBiYWNrZ3JvdW5kOiAnIzlDQTNBRicsCiAgICAgICAgICAgICAgICAgIGFuaW1hdGlvbjogJ3R5cGluZyAxcyBpbmZpbml0ZSAwLjJzJwogICAgICAgICAgICAgICAgfX0gLz4KICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgd2lkdGg6ICc4cHgnLCBoZWlnaHQ6ICc4cHgnLCBib3JkZXJSYWRpdXM6ICc1MCUnLCBiYWNrZ3JvdW5kOiAnIzlDQTNBRicsCiAgICAgICAgICAgICAgICAgIGFuaW1hdGlvbjogJ3R5cGluZyAxcyBpbmZpbml0ZSAwLjRzJwogICAgICAgICAgICAgICAgfX0gLz4KICAgICAgICAgICAgICAgIDxzcGFuIHN0eWxlPXt7IG1hcmdpbkxlZnQ6ICcwLjVyZW0nIH19PkFJIOaAneiAg+S4rS4uLjwvc3Bhbj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKX0KICAgICAgICAgICAgPGRpdiByZWY9e21lc3NhZ2VzRW5kUmVmfSAvPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgey8qIOi+k+WFpeahhiAqL30KICAgICAgICAgIDxkaXYgc3R5bGU9e3sgcGFkZGluZzogJzFyZW0gMS41cmVtJywgYm9yZGVyVG9wOiAnMXB4IHNvbGlkICNFNUU3RUInLCBiYWNrZ3JvdW5kOiAnI0ZBRkFGQScgfX0+CiAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgZGlzcGxheTogJ2ZsZXgnLCBnYXA6ICcwLjc1cmVtJyB9fT4KICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgIHR5cGU9InRleHQiCiAgICAgICAgICAgICAgICB2YWx1ZT17aW5wdXR9CiAgICAgICAgICAgICAgICBvbkNoYW5nZT17ZSA9PiBzZXRJbnB1dChlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgICBvbktleURvd249e2UgPT4gZS5rZXkgPT09ICdFbnRlcicgJiYgIWUuc2hpZnRLZXkgJiYgKGUucHJldmVudERlZmF1bHQoKSwgc2VuZE1lc3NhZ2UoKSl9CiAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0i6L6T5YWl5oKo55qE6Zeu6aKY77yM5oyJIEVudGVyIOWPkemAgS4uLiIKICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgIGZsZXg6IDEsCiAgICAgICAgICAgICAgICAgIHBhZGRpbmc6ICcwLjg3NXJlbSAxLjI1cmVtJywKICAgICAgICAgICAgICAgICAgYm9yZGVyOiAnMXB4IHNvbGlkICNFNUU3RUInLAogICAgICAgICAgICAgICAgICBib3JkZXJSYWRpdXM6ICc5OTk5cHgnLAogICAgICAgICAgICAgICAgICBmb250U2l6ZTogJzAuOTVyZW0nLAogICAgICAgICAgICAgICAgICBvdXRsaW5lOiAnbm9uZScsCiAgICAgICAgICAgICAgICAgIHRyYW5zaXRpb246ICdib3JkZXItY29sb3IgMC4ycycKICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICBvbkZvY3VzPXtlID0+IGUudGFyZ2V0LnN0eWxlLmJvcmRlckNvbG9yID0gJyM2NjdFRUEnfQogICAgICAgICAgICAgICAgb25CbHVyPXtlID0+IGUudGFyZ2V0LnN0eWxlLmJvcmRlckNvbG9yID0gJyNFNUU3RUInfQogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgb25DbGljaz17c2VuZE1lc3NhZ2V9CiAgICAgICAgICAgICAgICBkaXNhYmxlZD17IWlucHV0LnRyaW0oKSB8fCBsb2FkaW5nfQogICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgcGFkZGluZzogJzAuODc1cmVtIDEuNXJlbScsCiAgICAgICAgICAgICAgICAgIGJvcmRlclJhZGl1czogJzk5OTlweCcsCiAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IGlucHV0LnRyaW0oKSAmJiAhbG9hZGluZyA/ICdsaW5lYXItZ3JhZGllbnQoMTM1ZGVnLCAjNjY3RUVBIDAlLCAjNzY0QkEyIDEwMCUpJyA6ICcjRDFENURCJywKICAgICAgICAgICAgICAgICAgY29sb3I6ICd3aGl0ZScsCiAgICAgICAgICAgICAgICAgIGJvcmRlcjogJ25vbmUnLAogICAgICAgICAgICAgICAgICBjdXJzb3I6IGlucHV0LnRyaW0oKSAmJiAhbG9hZGluZyA/ICdwb2ludGVyJyA6ICdub3QtYWxsb3dlZCcsCiAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiAnMC45NXJlbScsCiAgICAgICAgICAgICAgICAgIGZvbnRXZWlnaHQ6IDUwMCwKICAgICAgICAgICAgICAgICAgdHJhbnNpdGlvbjogJ2FsbCAwLjJzJwogICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICDlj5HpgIEKICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIOW6lemDqOS/oeaBryAqL30KICAgICAgICA8ZGl2IHN0eWxlPXt7IHRleHRBbGlnbjogJ2NlbnRlcicsIG1hcmdpblRvcDogJzFyZW0nLCBjb2xvcjogJyM5Q0EzQUYnLCBmb250U2l6ZTogJzAuOHJlbScgfX0+CiAgICAgICAgICBQb3dlcmVkIGJ5IE1pbmlNYXggQUkgwrcg5pm66IO95a6i5pyN57O757ufCiAgICAgICAgPC9kaXY+CiAgICAgIDwvbWFpbj4KCiAgICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgCiAgICAgICAgQGtleWZyYW1lcyB0eXBpbmcgewogICAgICAgICAgMCUsIDEwMCUgeyB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7IG9wYWNpdHk6IDAuNTsgfQogICAgICAgICAgNTAlIHsgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC00cHgpOyBvcGFjaXR5OiAxOyB9CiAgICAgICAgfQogICAgICBgfTwvc3R5bGU+CiAgICA8L2Rpdj4KICApCn0K
+'use client'
+
+import { useState, useEffect, useRef } from 'react'
+import ChatWidget from '@/components/ChatWidget'
+
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
+
+interface Message {
+  role: 'user' | 'assistant'
+  content: string
+}
+
+export default function WidgetPage() {
+  const [messages, setMessages] = useState<Message[]>([])
+  const [input, setInput] = useState('')
+  const [loading, setLoading] = useState(false)
+  const [visitorId] = useState(() => localStorage.getItem('widget_visitor_id') || (() => {
+    const id = 'v_' + Math.random().toString(36).slice(2, 11)
+    localStorage.setItem('widget_visitor_id', id)
+    return id
+  })())
+  const [conversationId, setConversationId] = useState('')
+  const messagesEndRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
+  }, [messages])
+
+  const sendMessage = async () => {
+    if (!input.trim() || loading) return
+    
+    const userMessage: Message = { role: 'user', content: input }
+    setMessages(prev => [...prev, userMessage])
+    const currentInput = input
+    setInput('')
+    setLoading(true)
+
+    try {
+      const res = await fetch(`${API_URL}/api/chat`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ 
+          message: currentInput, 
+          visitor_id: visitorId,
+          conversation_id: conversationId || undefined
+        })
+      })
+      const data = await res.json()
+      
+      if (data.conversation_id && !conversationId) {
+        setConversationId(data.conversation_id)
+      }
+      
+      setMessages(prev => [...prev, { role: 'assistant', content: data.answer }])
+    } catch (err) {
+      setMessages(prev => [...prev, { 
+        role: 'assistant', 
+        content: '抱歉，服务暂时不可用，请稍后重试。' 
+      }])
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  return (
+    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+      {/* 头部 */}
+      <header style={{
+        background: 'linear-gradient(135deg, #667EEA 0%, #764BA2 100%)',
+        color: 'white',
+        padding: '2rem'
+      }}>
+        <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
+          <h1 style={{ fontSize: '2rem', fontWeight: 700, marginBottom: '0.5rem' }}>🤖 智能客服中心</h1>
+          <p style={{ opacity: 0.9 }}>基于 MiniMax AI 的知识库问答系统</p>
+        </div>
+      </header>
+
+      {/* 聊天区域 */}
+      <main style={{ flex: 1, maxWidth: '800px', margin: '0 auto', width: '100%', padding: '2rem', display: 'flex', flexDirection: 'column' }}>
+        <div style={{
+          flex: 1,
+          border: '1px solid #E5E7EB',
+          borderRadius: '1rem',
+          overflow: 'hidden',
+          display: 'flex',
+          flexDirection: 'column',
+          background: 'white'
+        }}>
+          {/* 消息列表 */}
+          <div style={{ flex: 1, overflow: 'auto', padding: '1.5rem', minHeight: '400px' }}>
+            {messages.length === 0 && (
+              <div style={{ textAlign: 'center', color: '#9CA3AF', marginTop: '3rem' }}>
+                <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>💬</div>
+                <div style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>欢迎来到智能客服</div>
+                <div style={{ fontSize: '0.9rem' }}>
+                  我可以回答关于产品、服务的问题<br/>
+                  输入您的问题开始对话
+                </div>
+              </div>
+            )}
+            
+            {messages.map((msg, i) => (
+              <div key={i} style={{
+                display: 'flex',
+                justifyContent: msg.role === 'user' ? 'flex-end' : 'flex-start',
+                marginBottom: '1rem'
+              }}>
+                <div style={{
+                  maxWidth: '75%',
+                  padding: '1rem 1.25rem',
+                  borderRadius: '1rem',
+                  background: msg.role === 'user' ? 'linear-gradient(135deg, #667EEA 0%, #764BA2 100%)' : '#F3F4F6',
+                  color: msg.role === 'user' ? 'white' : '#111827',
+                  borderBottomRightRadius: msg.role === 'user' ? '0.25rem' : '1rem',
+                  borderBottomLeftRadius: msg.role === 'user' ? '1rem' : '0.25rem',
+                  fontSize: '0.95rem',
+                  lineHeight: 1.6,
+                  whiteSpace: 'pre-wrap',
+                  wordBreak: 'break-word',
+                  boxShadow: '0 1px 3px rgba(0,0,0,0.1)'
+                }}>
+                  {msg.content}
+                </div>
+              </div>
+            ))}
+            
+            {loading && (
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#9CA3AF', padding: '0.5rem 0' }}>
+                <div style={{
+                  width: '8px', height: '8px', borderRadius: '50%', background: '#9CA3AF',
+                  animation: 'typing 1s infinite'
+                }} />
+                <div style={{
+                  width: '8px', height: '8px', borderRadius: '50%', background: '#9CA3AF',
+                  animation: 'typing 1s infinite 0.2s'
+                }} />
+                <div style={{
+                  width: '8px', height: '8px', borderRadius: '50%', background: '#9CA3AF',
+                  animation: 'typing 1s infinite 0.4s'
+                }} />
+                <span style={{ marginLeft: '0.5rem' }}>AI 思考中...</span>
+              </div>
+            )}
+            <div ref={messagesEndRef} />
+          </div>
+
+          {/* 输入框 */}
+          <div style={{ padding: '1rem 1.5rem', borderTop: '1px solid #E5E7EB', background: '#FAFAFA' }}>
+            <div style={{ display: 'flex', gap: '0.75rem' }}>
+              <input
+                type="text"
+                value={input}
+                onChange={e => setInput(e.target.value)}
+                onKeyDown={e => e.key === 'Enter' && !e.shiftKey && (e.preventDefault(), sendMessage())}
+                placeholder="输入您的问题，按 Enter 发送..."
+                style={{
+                  flex: 1,
+                  padding: '0.875rem 1.25rem',
+                  border: '1px solid #E5E7EB',
+                  borderRadius: '9999px',
+                  fontSize: '0.95rem',
+                  outline: 'none',
+                  transition: 'border-color 0.2s'
+                }}
+                onFocus={e => e.target.style.borderColor = '#667EEA'}
+                onBlur={e => e.target.style.borderColor = '#E5E7EB'}
+              />
+              <button
+                onClick={sendMessage}
+                disabled={!input.trim() || loading}
+                style={{
+                  padding: '0.875rem 1.5rem',
+                  borderRadius: '9999px',
+                  background: input.trim() && !loading ? 'linear-gradient(135deg, #667EEA 0%, #764BA2 100%)' : '#D1D5DB',
+                  color: 'white',
+                  border: 'none',
+                  cursor: input.trim() && !loading ? 'pointer' : 'not-allowed',
+                  fontSize: '0.95rem',
+                  fontWeight: 500,
+                  transition: 'all 0.2s'
+                }}
+              >
+                发送
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* 底部信息 */}
+        <div style={{ textAlign: 'center', marginTop: '1rem', color: '#9CA3AF', fontSize: '0.8rem' }}>
+          Powered by MiniMax AI · 智能客服系统
+        </div>
+      </main>
+
+      <style jsx global>{`
+        @keyframes typing {
+          0%, 100% { transform: translateY(0); opacity: 0.5; }
+          50% { transform: translateY(-4px); opacity: 1; }
+        }
+      `}</style>
+    </div>
+  )
+}
