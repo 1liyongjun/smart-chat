@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  smart-chat:
+    build: .
+    container_name: smart-chat
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - MINIMAX_API_KEY=${MINIMAX_API_KEY}
+      - MINIMAX_BASE_URL=https://api.minimax.io/v1
+    volumes:
+      # 持久化数据库
+      - smart-chat-data:/app/data
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:8000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  smart-chat-data:
