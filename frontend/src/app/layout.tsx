@@ -1,1 +1,15 @@
-aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gJ25leHQnCmltcG9ydCAnLi9nbG9iYWxzLmNzcycKCmV4cG9ydCBjb25zdCBtZXRhZGF0YTogTWV0YWRhdGEgPSB7CiAgdGl0bGU6ICfmmbrog73lrqLmnI3ns7vnu58nLAogIGRlc2NyaXB0aW9uOiAn5Z+65LqOIE1pbmlNYXggQUkg55qE55+l6K+G5bqT6Zeu562U5a6i5pyNJywKfQoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUm9vdExheW91dCh7IGNoaWxkcmVuIH06IHsgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZSB9KSB7CiAgcmV0dXJuICgKICAgIDxodG1sIGxhbmc9InpoLUNOIj4KICAgICAgPGJvZHk+e2NoaWxkcmVufTwvYm9keT4KICAgIDwvaHRtbD4KICApCn0K
+import type { Metadata } from 'next'
+import './globals.css'
+
+export const metadata: Metadata = {
+  title: '智能客服系统',
+  description: '基于 MiniMax AI 的知识库问答客服',
+}
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="zh-CN">
+      <body>{children}</body>
+    </html>
+  )
+}
