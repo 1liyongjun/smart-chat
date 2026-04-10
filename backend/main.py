@@ -1,1 +1,374 @@
-IiIiCuaZuuiDveWuouacjeWQjuerryAtIEZhc3RBUEkgKyBTUUxpdGUgKyBNaW5pTWF4IEFJCiIiIgppbXBvcnQgb3MKaW1wb3J0IGpzb24KaW1wb3J0IHNxbGl0ZTMKaW1wb3J0IHV1aWQKaW1wb3J0IHRpbWUKZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUsIHRpbWVkZWx0YQpmcm9tIHR5cGluZyBpbXBvcnQgT3B0aW9uYWwsIExpc3QKZnJvbSBjb250ZXh0bGliIGltcG9ydCBjb250ZXh0bWFuYWdlcgoKZnJvbSBmYXN0YXBpIGltcG9ydCBGYXN0QVBJLCBIVFRQRXhjZXB0aW9uLCBSZXF1ZXN0CmZyb20gZmFzdGFwaS5taWRkbGV3YXJlLmNvcnMgaW1wb3J0IENPUlNNaWRkbGV3YXJlCmZyb20gZmFzdGFwaS5yZXNwb25zZXMgaW1wb3J0IEpTT05SZXNwb25zZQpmcm9tIHB5ZGFudGljIGltcG9ydCBCYXNlTW9kZWwKaW1wb3J0IHJlcXVlc3RzCgojID09PT09PT09PT09PT09IOmFjee9riA9PT09PT09PT09PT09PQpEQVRBQkFTRV9QQVRIID0gb3MucGF0aC5qb2luKG9zLnBhdGguZGlybmFtZShfX2ZpbGVfXyksICJkYXRhIiwgInNtYXJ0X2NoYXQuZGIiKQpNSU5JTUFYX0FQSV9LRVkgPSBvcy5lbnZpcm9uLmdldCgiTUlOSU1BWF9BUElfS0VZIiwgIiIpCk1JTklNQVhfQkFTRV9VUkwgPSAiaHR0cHM6Ly9hcGkubWluaW1heC5pby92MSIKTU9ERUxfTkFNRSA9ICJNaW5pTWF4LU0yLjciCgojID09PT09PT09PT09PT09IOaVsOaNruW6k+WIneWni+WMliA9PT09PT09PT09PT09PQpkZWYgaW5pdF9kYigpOgogICAgIiIi5Yid5aeL5YyW5pWw5o2u5bqTIiIiCiAgICBvcy5tYWtlZGlycyhvcy5wYXRoLmRpcm5hbWUoREFUQUJBU0VfUEFUSCksIGV4aXN0X29rPVRydWUpCiAgICBjb25uID0gc3FsaXRlMy5jb25uZWN0KERBVEFCQVNFX1BBVEgpCiAgICBjID0gY29ubi5jdXJzb3IoKQogICAgCiAgICAjIOefpeivhuW6k+ihqAogICAgYy5leGVjdXRlKCIiIgogICAgICAgIENSRUFURSBUQUJMRSBJRiBOT1QgRVhJU1RTIGtub3dsZWRnZV9iYXNlICgKICAgICAgICAgICAgaWQgSU5URUdFUiBQUklNQVJZIEtFWSBBVVRPSU5DUkVNRU5ULAogICAgICAgICAgICBxdWVzdGlvbiBURVhUIE5PVCBOVUxMLAogICAgICAgICAgICBhbnN3ZXIgVEVYVCBOT1QgTlVMTCwKICAgICAgICAgICAgY2F0ZWdvcnkgVEVYVCBERUZBVUxUICdnZW5lcmFsJywKICAgICAgICAgICAgdGFncyBURVhUIERFRkFVTFQgJ1tdJywKICAgICAgICAgICAgdXNhZ2VfY291bnQgSU5URUdFUiBERUZBVUxUIDAsCiAgICAgICAgICAgIGNyZWF0ZWRfYXQgVElNRVNUQU1QIERFRkFVTFQgQ1VSUkVOVF9USU1FU1RBTVAsCiAgICAgICAgICAgIHVwZGF0ZWRfYXQgVElNRVNUQU1QIERFRkFVTFQgQ1VSUkVOVF9USU1FU1RBTVAKICAgICAgICApCiAgICAiIiIpCiAgICAKICAgICMg5a+56K+d6K6w5b2V6KGoCiAgICBjLmV4ZWN1dGUoIiIiCiAgICAgICAgQ1JFQVRFIFRBQkxFIElGIE5PVCBFWElTVFMgY29udmVyc2F0aW9ucyAoCiAgICAgICAgICAgIGlkIFRFWFQgUFJJTUFSWSBLRVksCiAgICAgICAgICAgIHZpc2l0b3JfaWQgVEVYVCBOT1QgTlVMTCwKICAgICAgICAgICAgbWVzc2FnZXMgVEVYVCBERUZBVUxUICdbXScsCiAgICAgICAgICAgIHN0YXR1cyBURVhUIERFRkFVTFQgJ2FjdGl2ZScsCiAgICAgICAgICAgIGNyZWF0ZWRfYXQgVElNRVNUQU1QIERFRkFVTFQgQ1VSUkVOVF9USU1FU1RBTVAsCiAgICAgICAgICAgIHVwZGF0ZWRfYXQgVElNRVNUQU1QIERFRkFVTFQgQ1VSUkVOVF9USU1FU1RBTVAKICAgICAgICApCiAgICAiIiIpCiAgICAKICAgICMg6K6/5a6i6KGoCiAgICBjLmV4ZWN1dGUoIiIiCiAgICAgICAgQ1JFQVRFIFRBQkxFIElGIE5PVCBFWElTVFMgdmlzaXRvcnMgKAogICAgICAgICAgICBpZCBURVhUIFBSSU1BUlkgS0VZLAogICAgICAgICAgICBuYW1lIFRFWFQsCiAgICAgICAgICAgIGVtYWlsIFRFWFQsCiAgICAgICAgICAgIG1ldGFkYXRhIFRFWFQgREVGQVVMVCAne30nLAogICAgICAgICAgICBmaXJzdF92aXNpdCBUSU1FU1RBTVAgREVGQVVMVCBDVVJSRU5UX1RJTUVTVEFNUCwKICAgICAgICAgICAgbGFzdF92aXNpdCBUSU1FU1RBTVAgREVGQVVMVCBDVVJSRU5UX1RJTUVTVEFNUAogICAgICAgICkKICAgICIiIikKICAgIAogICAgY29ubi5jb21taXQoKQogICAgY29ubi5jbG9zZSgpCiAgICBwcmludChmIuKchSDmlbDmja7lupPliJ3lp4vljJblrozmiJA6IHtEQVRBQkFTRV9QQVRIfSIpCgpAY29udGV4dG1hbmFnZXIKZGVmIGdldF9kYigpOgogICAgIiIi5pWw5o2u5bqT6L+e5o6l5LiK5LiL5paH566h55CG5ZmoIiIiCiAgICBjb25uID0gc3FsaXRlMy5jb25uZWN0KERBVEFCQVNFX1BBVEgpCiAgICBjb25uLnJvd19mYWN0b3J5ID0gc3FsaXRlMy5Sb3cKICAgIHRyeToKICAgICAgICB5aWVsZCBjb25uCiAgICBmaW5hbGx5OgogICAgICAgIGNvbm4uY2xvc2UoKQoKIyA9PT09PT09PT09PT09PSBQeWRhbnRpYyDmqKHlnosgPT09PT09PT09PT09PT0KY2xhc3MgUUFJdGVtKEJhc2VNb2RlbCk6CiAgICBxdWVzdGlvbjogc3RyCiAgICBhbnN3ZXI6IHN0cgogICAgY2F0ZWdvcnk6IHN0ciA9ICJnZW5lcmFsIgogICAgdGFnczogTGlzdFtzdHJdID0gW10KCmNsYXNzIENoYXRSZXF1ZXN0KEJhc2VNb2RlbCk6CiAgICBtZXNzYWdlOiBzdHIKICAgIHZpc2l0b3JfaWQ6IE9wdGlvbmFsW3N0cl0gPSBOb25lCiAgICBjb252ZXJzYXRpb25faWQ6IE9wdGlvbmFsW3N0cl0gPSBOb25lCgpjbGFzcyBDaGF0UmVzcG9uc2UoQmFzZU1vZGVsKToKICAgIGFuc3dlcjogc3RyCiAgICBjb252ZXJzYXRpb25faWQ6IHN0cgogICAgc291cmNlczogTGlzdFtzdHJdID0gW10KCiMgPT09PT09PT09PT09PT0gTWluaU1heCBBSSDosIPnlKggPT09PT09PT09PT09PT0KZGVmIGNhbGxfbWluaW1heChwcm9tcHQ6IHN0ciwgY29udGV4dDogc3RyID0gIiIpIC0+IHN0cjoKICAgICIiIuiwg+eUqCBNaW5pTWF4IEFJIiIiCiAgICBpZiBub3QgTUlOSU1BWF9BUElfS0VZOgogICAgICAgIHJldHVybiAi4pqg77iPIEFJ5pyN5Yqh5pyq6YWN572u77yM6K+36IGU57O7566h55CG5ZGY6K6+572uIE1JTklNQVhfQVBJX0tFWSDnjq/looPlj5jph48iCiAgICAKICAgIHN5c3RlbV9wcm9tcHQgPSBmIiIi5L2g5piv5LiA5Liq5LiT5Lia55qE5pm66IO95a6i5pyN5Yqp5omL44CC6K+35qC55o2u5o+Q5L6b55qE55+l6K+G5bqT5YaF5a655Zue562U55So5oi36Zeu6aKY44CCCgrnn6Xor4blupPlhoXlrrnvvJoKe2NvbnRleHR9Cgrlm57nrZTopoHmsYLvvJoKMS4g5aaC5p6c55+l6K+G5bqT5Lit5pyJ55u45YWz5YaF5a6577yM5LyY5YWI5L2/55So55+l6K+G5bqT5YaF5a655Zue562UCjIuIOWmguaenOefpeivhuW6k+S4reayoeacieebuOWFs+S/oeaBr++8jOekvOiyjOWcsOivtOaYjuaaguaXtuaXoOazleWbnuetlO+8jOW5tuW8leWvvOeUqOaIt+iBlOezu+S6uuW3peWuouacjQozLiDlm57nrZTopoHnroDmtIHjgIHkuJPkuJrjgIHlj4vlpb0KNC4g5LiN6KaB57yW6YCg55+l6K+G5bqT5Lit5rKh5pyJ55qE5L+h5oGvCiIiIgogICAgCiAgICB0cnk6CiAgICAgICAgcmVzcG9uc2UgPSByZXF1ZXN0cy5wb3N0KAogICAgICAgICAgICBmIntNSU5JTUFYX0JBU0VfVVJMfS9jaGF0L2NvbXBsZXRpb25zIiwKICAgICAgICAgICAgaGVhZGVycz17CiAgICAgICAgICAgICAgICAiQXV0aG9yaXphdGlvbiI6IGYiQmVhcmVyIHtNSU5JTUFYX0FQSV9LRVl9IiwKICAgICAgICAgICAgICAgICJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIKICAgICAgICAgICAgfSwKICAgICAgICAgICAganNvbj17CiAgICAgICAgICAgICAgICAibW9kZWwiOiBNT0RFTF9OQU1FLAogICAgICAgICAgICAgICAgIm1lc3NhZ2VzIjogWwogICAgICAgICAgICAgICAgICAgIHsicm9sZSI6ICJzeXN0ZW0iLCAiY29udGVudCI6IHN5c3RlbV9wcm9tcHR9LAogICAgICAgICAgICAgICAgICAgIHsicm9sZSI6ICJ1c2VyIiwgImNvbnRlbnQiOiBwcm9tcHR9CiAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgInRlbXBlcmF0dXJlIjogMC43LAogICAgICAgICAgICAgICAgIm1heF90b2tlbnMiOiAxMDI0CiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHRpbWVvdXQ9MzAKICAgICAgICApCiAgICAgICAgcmVzdWx0ID0gcmVzcG9uc2UuanNvbigpCiAgICAgICAgaWYgImNob2ljZXMiIGluIHJlc3VsdCBhbmQgbGVuKHJlc3VsdFsiY2hvaWNlcyJdKSA+IDA6CiAgICAgICAgICAgIHJldHVybiByZXN1bHRbImNob2ljZXMiXVswXVsibWVzc2FnZSJdWyJjb250ZW50Il0KICAgICAgICByZXR1cm4gIuKdjCBBSeWTjeW6lOagvOW8j+mUmeivryIKICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICByZXR1cm4gZiLinYwgQUnmnI3liqHosIPnlKjlpLHotKU6IHtzdHIoZSl9IgoKZGVmIHNlYXJjaF9rbm93bGVkZ2VfYmFzZShxdWVyeTogc3RyLCB0b3BfazogaW50ID0gMykgLT4gTGlzdFtkaWN0XToKICAgICIiIuaQnOe0ouefpeivhuW6kyIiIgogICAgd2l0aCBnZXRfZGIoKSBhcyBjb25uOgogICAgICAgIGMgPSBjb25uLmN1cnNvcigpCiAgICAgICAgIyDnroDljZXnmoTlhbPplK7or43ljLnphY3mkJzntKIKICAgICAgICBrZXl3b3JkcyA9IHF1ZXJ5LnNwbGl0KCkKICAgICAgICBpZiBrZXl3b3JkczoKICAgICAgICAgICAgcGF0dGVybiA9ICIlIiArICIlIi5qb2luKGtleXdvcmRzKSArICIlIgogICAgICAgICAgICBjLmV4ZWN1dGUoIiIiCiAgICAgICAgICAgICAgICBTRUxFQ1QgKiBGUk9NIGtub3dsZWRnZV9iYXNlIAogICAgICAgICAgICAgICAgV0hFUkUgcXVlc3Rpb24gTElLRSA/IE9SIGFuc3dlciBMSUtFID8KICAgICAgICAgICAgICAgIE9SREVSIEJZIHVzYWdlX2NvdW50IERFU0MKICAgICAgICAgICAgICAgIExJTUlUID8KICAgICAgICAgICAgIiIiLCAocGF0dGVybiwgcGF0dGVybiwgdG9wX2spKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIGMuZXhlY3V0ZSgiU0VMRUNUICogRlJPTSBrbm93bGVkZ2VfYmFzZSBPUkRFUiBCWSB1c2FnZV9jb3VudCBERVNDIExJTUlUID8iLCAodG9wX2ssKSkKICAgICAgICAKICAgICAgICByb3dzID0gYy5mZXRjaGFsbCgpCiAgICAgICAgcmV0dXJuIFtkaWN0KHJvdykgZm9yIHJvdyBpbiByb3dzXQoKIyA9PT09PT09PT09PT09PSBGYXN0QVBJIOW6lOeUqCA9PT09PT09PT09PT09PQphcHAgPSBGYXN0QVBJKHRpdGxlPSLmmbrog73lrqLmnI0gQVBJIiwgdmVyc2lvbj0iMS4wLjAiKQoKIyBDT1JTIOmFjee9rgphcHAuYWRkX21pZGRsZXdhcmUoCiAgICBDT1JTTWlkZGxld2FyZSwKICAgIGFsbG93X29yaWdpbnM9WyIqIl0sCiAgICBhbGxvd19jcmVkZW50aWFscz1UcnVlLAogICAgYWxsb3dfbWV0aG9kcz1bIioiXSwKICAgIGFsbG93X2hlYWRlcnM9WyIqIl0sCikKCkBhcHAub25fZXZlbnQoInN0YXJ0dXAiKQphc3luYyBkZWYgc3RhcnR1cCgpOgogICAgaW5pdF9kYigpCiAgICBwcmludCgi8J+agCDmmbrog73lrqLmnI3mnI3liqHlt7LlkK/liqgiKQoKIyA9PT09PT09PT09PT09PSBBUEkg6Lev55SxID09PT09PT09PT09PT09CgojIOWBpeW6t+ajgOafpQpAYXBwLmdldCgiL2hlYWx0aCIpCmFzeW5jIGRlZiBoZWFsdGgoKToKICAgIHJldHVybiB7InN0YXR1cyI6ICJvayIsICJzZXJ2aWNlIjogInNtYXJ0LWNoYXQifQoKIyAtLS0g55+l6K+G5bqT566h55CGIC0tLQoKQGFwcC5wb3N0KCIvYXBpL2tub3dsZWRnZSIpCmFzeW5jIGRlZiBhZGRfa25vd2xlZGdlKHFhOiBRQUl0ZW0pOgogICAgIiIi5re75Yqg55+l6K+G5bqT5p2h55uuIiIiCiAgICB3aXRoIGdldF9kYigpIGFzIGNvbm46CiAgICAgICAgYyA9IGNvbm4uY3Vyc29yKCkKICAgICAgICBjLmV4ZWN1dGUoIiIiCiAgICAgICAgICAgIElOU0VSVCBJTlRPIGtub3dsZWRnZV9iYXNlIChxdWVzdGlvbiwgYW5zd2VyLCBjYXRlZ29yeSwgdGFncykKICAgICAgICAgICAgVkFMVUVTICg/LCA/LCA/LCA/KQogICAgICAgICIiIiwgKHFhLnF1ZXN0aW9uLCBxYS5hbnN3ZXIsIHFhLmNhdGVnb3J5LCBqc29uLmR1bXBzKHFhLnRhZ3MpKSkKICAgICAgICBjb25uLmNvbW1pdCgpCiAgICAgICAgcmV0dXJuIHsiaWQiOiBjLmxhc3Ryb3dpZCwgIm1lc3NhZ2UiOiAi5re75Yqg5oiQ5YqfIn0KCkBhcHAuZ2V0KCIvYXBpL2tub3dsZWRnZSIpCmFzeW5jIGRlZiBsaXN0X2tub3dsZWRnZShjYXRlZ29yeTogT3B0aW9uYWxbc3RyXSA9IE5vbmUsIHBhZ2U6IGludCA9IDEsIHBhZ2Vfc2l6ZTogaW50ID0gMjApOgogICAgIiIi6I635Y+W55+l6K+G5bqT5YiX6KGoIiIiCiAgICB3aXRoIGdldF9kYigpIGFzIGNvbm46CiAgICAgICAgYyA9IGNvbm4uY3Vyc29yKCkKICAgICAgICBpZiBjYXRlZ29yeToKICAgICAgICAgICAgYy5leGVjdXRlKCIiIgogICAgICAgICAgICAgICAgU0VMRUNUICogRlJPTSBrbm93bGVkZ2VfYmFzZSAKICAgICAgICAgICAgICAgIFdIRVJFIGNhdGVnb3J5ID0gPwogICAgICAgICAgICAgICAgT1JERVIgQlkgdXBkYXRlZF9hdCBERVNDCiAgICAgICAgICAgICAgICBMSU1JVCA/IE9GRlNFVCA/CiAgICAgICAgICAgICIiIiwgKGNhdGVnb3J5LCBwYWdlX3NpemUsIChwYWdlLTEpKnBhZ2Vfc2l6ZSkpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgYy5leGVjdXRlKCIiIgogICAgICAgICAgICAgICAgU0VMRUNUICogRlJPTSBrbm93bGVkZ2VfYmFzZSAKICAgICAgICAgICAgICAgIE9SREVSIEJZIHVwZGF0ZWRfYXQgREVTQwogICAgICAgICAgICAgICAgTElNSVQgPyBPRkZTRVQgPwogICAgICAgICAgICAiIiIsIChwYWdlX3NpemUsIChwYWdlLTEpKnBhZ2Vfc2l6ZSkpCiAgICAgICAgCiAgICAgICAgaXRlbXMgPSBbZGljdChyb3cpIGZvciByb3cgaW4gYy5mZXRjaGFsbCgpXQogICAgICAgIAogICAgICAgIGMuZXhlY3V0ZSgiU0VMRUNUIENPVU5UKCopIEZST00ga25vd2xlZGdlX2Jhc2UiKQogICAgICAgIHRvdGFsID0gYy5mZXRjaG9uZSgpWzBdCiAgICAgICAgCiAgICAgICAgcmV0dXJuIHsiaXRlbXMiOiBpdGVtcywgInRvdGFsIjogdG90YWwsICJwYWdlIjogcGFnZSwgInBhZ2Vfc2l6ZSI6IHBhZ2Vfc2l6ZX0KCkBhcHAucHV0KCIvYXBpL2tub3dsZWRnZS97aXRlbV9pZH0iKQphc3luYyBkZWYgdXBkYXRlX2tub3dsZWRnZShpdGVtX2lkOiBpbnQsIHFhOiBRQUl0ZW0pOgogICAgIiIi5pu05paw55+l6K+G5bqT5p2h55uuIiIiCiAgICB3aXRoIGdldF9kYigpIGFzIGNvbm46CiAgICAgICAgYyA9IGNvbm4uY3Vyc29yKCkKICAgICAgICBjLmV4ZWN1dGUoIiIiCiAgICAgICAgICAgIFVQREFURSBrbm93bGVkZ2VfYmFzZSAKICAgICAgICAgICAgU0VUIHF1ZXN0aW9uID0gPywgYW5zd2VyID0gPywgY2F0ZWdvcnkgPSA/LCB0YWdzID0gPywgdXBkYXRlZF9hdCA9IENVUlJFTlRfVElNRVNUQU1QCiAgICAgICAgICAgIFdIRVJFIGlkID0gPwogICAgICAgICIiIiwgKHFhLnF1ZXN0aW9uLCBxYS5hbnN3ZXIsIHFhLmNhdGVnb3J5LCBqc29uLmR1bXBzKHFhLnRhZ3MpLCBpdGVtX2lkKSkKICAgICAgICBjb25uLmNvbW1pdCgpCiAgICAgICAgaWYgYy5yb3djb3VudCA9PSAwOgogICAgICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKHN0YXR1c19jb2RlPTQwNCwgbWVzc2FnZT0i5p2h55uu5LiN5a2Y5ZyoIikKICAgICAgICByZXR1cm4geyJtZXNzYWdlIjogIuabtOaWsOaIkOWKnyJ9CgpAYXBwLmRlbGV0ZSgiL2FwaS9rbm93bGVkZ2Uve2l0ZW1faWR9IikKYXN5bmMgZGVmIGRlbGV0ZV9rbm93bGVkZ2UoaXRlbV9pZDogaW50KToKICAgICIiIuWIoOmZpOefpeivhuW6k+adoeebriIiIgogICAgd2l0aCBnZXRfZGIoKSBhcyBjb25uOgogICAgICAgIGMgPSBjb25uLmN1cnNvcigpCiAgICAgICAgYy5leGVjdXRlKCJERUxFVEUgRlJPTSBrbm93bGVkZ2VfYmFzZSBXSEVSRSBpZCA9ID8iLCAoaXRlbV9pZCwpKQogICAgICAgIGNvbm4uY29tbWl0KCkKICAgICAgICBpZiBjLnJvd2NvdW50ID09IDA6CiAgICAgICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NDA0LCBtZXNzYWdlPSLmnaHnm67kuI3lrZjlnKgiKQogICAgICAgIHJldHVybiB7Im1lc3NhZ2UiOiAi5Yig6Zmk5oiQ5YqfIn0KCiMgLS0tIOiBiuWkqeaOpeWPoyAtLS0KCkBhcHAucG9zdCgiL2FwaS9jaGF0IiwgcmVzcG9uc2VfbW9kZWw9Q2hhdFJlc3BvbnNlKQphc3luYyBkZWYgY2hhdChyZXE6IENoYXRSZXF1ZXN0KToKICAgICIiIuWkhOeQhueUqOaIt+a2iOaBryIiIgogICAgdmlzaXRvcl9pZCA9IHJlcS52aXNpdG9yX2lkIG9yIHN0cih1dWlkLnV1aWQ0KCkpCiAgICBjb252ZXJzYXRpb25faWQgPSByZXEuY29udmVyc2F0aW9uX2lkIG9yIHN0cih1dWlkLnV1aWQ0KCkpCiAgICAKICAgICMg5pCc57Si55+l6K+G5bqTCiAgICBrYl9yZXN1bHRzID0gc2VhcmNoX2tub3dsZWRnZV9iYXNlKHJlcS5tZXNzYWdlKQogICAgCiAgICAjIOaehOW7uuS4iuS4i+aWhwogICAgY29udGV4dCA9ICIiCiAgICBzb3VyY2VzID0gW10KICAgIGlmIGtiX3Jlc3VsdHM6CiAgICAgICAgZm9yIGksIGl0ZW0gaW4gZW51bWVyYXRlKGtiX3Jlc3VsdHMsIDEpOgogICAgICAgICAgICBjb250ZXh0ICs9IGYiXG7jgJDnm7jlhbPpl67nrZQge2l944CRXG7pl67popg6IHtpdGVtWydxdWVzdGlvbiddfVxu5Zue562UOiB7aXRlbVsnYW5zd2VyJ119XG4iCiAgICAgICAgICAgIHNvdXJjZXMuYXBwZW5kKGYiUToge2l0ZW1bJ3F1ZXN0aW9uJ119IikKICAgICAgICAKICAgICAgICAjIOabtOaWsOS9v+eUqOasoeaVsAogICAgICAgIHdpdGggZ2V0X2RiKCkgYXMgY29ubjoKICAgICAgICAgICAgYyA9IGNvbm4uY3Vyc29yKCkKICAgICAgICAgICAgZm9yIGl0ZW0gaW4ga2JfcmVzdWx0czoKICAgICAgICAgICAgICAgIGMuZXhlY3V0ZSgiVVBEQVRFIGtub3dsZWRnZV9iYXNlIFNFVCB1c2FnZV9jb3VudCA9IHVzYWdlX2NvdW50ICsgMSBXSEVSRSBpZCA9ID8iLCAoaXRlbVsnaWQnXSwpKQogICAgICAgICAgICBjb25uLmNvbW1pdCgpCiAgICAKICAgICMg6LCD55SoIEFJCiAgICBhbnN3ZXIgPSBjYWxsX21pbmltYXgocmVxLm1lc3NhZ2UsIGNvbnRleHQpCiAgICAKICAgICMg5L+d5a2Y5a+56K+d6K6w5b2VCiAgICB3aXRoIGdldF9kYigpIGFzIGNvbm46CiAgICAgICAgYyA9IGNvbm4uY3Vyc29yKCkKICAgICAgICAKICAgICAgICAjIOiOt+WPlueOsOaciea2iOaBrwogICAgICAgIGMuZXhlY3V0ZSgiU0VMRUNUIG1lc3NhZ2VzIEZST00gY29udmVyc2F0aW9ucyBXSEVSRSBpZCA9ID8iLCAoY29udmVyc2F0aW9uX2lkLCkpCiAgICAgICAgcm93ID0gYy5mZXRjaG9uZSgpCiAgICAgICAgbWVzc2FnZXMgPSBqc29uLmxvYWRzKHJvd1swXSkgaWYgcm93IGFuZCByb3dbMF0gZWxzZSBbXSBpZiByb3cgZWxzZSBbXQogICAgICAgIAogICAgICAgICMg5re75Yqg5paw5raI5oGvCiAgICAgICAgbWVzc2FnZXMuYXBwZW5kKHsKICAgICAgICAgICAgInJvbGUiOiAidXNlciIsCiAgICAgICAgICAgICJjb250ZW50IjogcmVxLm1lc3NhZ2UsCiAgICAgICAgICAgICJ0aW1lc3RhbXAiOiBkYXRldGltZS5ub3coKS5pc29mb3JtYXQoKQogICAgICAgIH0pCiAgICAgICAgbWVzc2FnZXMuYXBwZW5kKHsKICAgICAgICAgICAgInJvbGUiOiAiYXNzaXN0YW50IiwgCiAgICAgICAgICAgICJjb250ZW50IjogYW5zd2VyLAogICAgICAgICAgICAidGltZXN0YW1wIjogZGF0ZXRpbWUubm93KCkuaXNvZm9ybWF0KCkKICAgICAgICB9KQogICAgICAgIAogICAgICAgICMg5pu05paw5oiW5Yib5bu65a+56K+dCiAgICAgICAgYy5leGVjdXRlKCIiIgogICAgICAgICAgICBJTlNFUlQgT1IgUkVQTEFDRSBJTlRPIGNvbnZlcnNhdGlvbnMgKGlkLCB2aXNpdG9yX2lkLCBtZXNzYWdlcywgdXBkYXRlZF9hdCkKICAgICAgICAgICAgVkFMVUVTICg/LCA/LCA/LCBDVVJSRU5UX1RJTUVTVEFNUCkKICAgICAgICAiIiIsIChjb252ZXJzYXRpb25faWQsIHZpc2l0b3JfaWQsIGpzb24uZHVtcHMobWVzc2FnZXMpKSkKICAgICAgICBjb25uLmNvbW1pdCgpCiAgICAKICAgIHJldHVybiBDaGF0UmVzcG9uc2UoCiAgICAgICAgYW5zd2VyPWFuc3dlciwKICAgICAgICBjb252ZXJzYXRpb25faWQ9Y29udmVyc2F0aW9uX2lkLAogICAgICAgIHNvdXJjZXM9c291cmNlcwogICAgKQoKQGFwcC5nZXQoIi9hcGkvY29udmVyc2F0aW9ucy97Y29udmVyc2F0aW9uX2lkfSIpCmFzeW5jIGRlZiBnZXRfY29udmVyc2F0aW9uKGNvbnZlcnNhdGlvbl9pZDogc3RyKToKICAgICIiIuiOt+WPluWvueivneWOhuWPsiIiIgogICAgd2l0aCBnZXRfZGIoKSBhcyBjb25uOgogICAgICAgIGMgPSBjb25uLmN1cnNvcigpCiAgICAgICAgYy5leGVjdXRlKCJTRUxFQ1QgKiBGUk9NIGNvbnZlcnNhdGlvbnMgV0hFUkUgaWQgPSA/IiwgKGNvbnZlcnNhdGlvbl9pZCwpKQogICAgICAgIHJvdyA9IGMuZmV0Y2hvbmUoKQogICAgICAgIGlmIG5vdCByb3c6CiAgICAgICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oc3RhdHVzX2NvZGU9NDA0LCBtZXNzYWdlPSLlr7nor53kuI3lrZjlnKgiKQogICAgICAgIHJldHVybiBkaWN0KHJvdykKCkBhcHAuZ2V0KCIvYXBpL2NvbnZlcnNhdGlvbnMiKQphc3luYyBkZWYgbGlzdF9jb252ZXJzYXRpb25zKHBhZ2U6IGludCA9IDEsIHBhZ2Vfc2l6ZTogaW50ID0gNTApOgogICAgIiIi6I635Y+W5a+56K+d5YiX6KGoIiIiCiAgICB3aXRoIGdldF9kYigpIGFzIGNvbm46CiAgICAgICAgYyA9IGNvbm4uY3Vyc29yKCkKICAgICAgICBjLmV4ZWN1dGUoIiIiCiAgICAgICAgICAgIFNFTEVDVCBpZCwgdmlzaXRvcl9pZCwgc3RhdHVzLCBjcmVhdGVkX2F0LCB1cGRhdGVkX2F0LAogICAgICAgICAgICAgICAgICAganNvbl9hcnJheV9sZW5ndGgobWVzc2FnZXMpIGFzIG1lc3NhZ2VfY291bnQKICAgICAgICAgICAgRlJPTSBjb252ZXJzYXRpb25zCiAgICAgICAgICAgIE9SREVSIEJZIHVwZGF0ZWRfYXQgREVTQwogICAgICAgICAgICBMSU1JVCA/IE9GRlNFVCA/CiAgICAgICAgIiIiLCAocGFnZV9zaXplLCAocGFnZS0xKSpwYWdlX3NpemUpKQogICAgICAgIGl0ZW1zID0gW2RpY3Qocm93KSBmb3Igcm93IGluIGMuZmV0Y2hhbGwoKV0KICAgICAgICAKICAgICAgICBjLmV4ZWN1dGUoIlNFTEVDVCBDT1VOVCgqKSBGUk9NIGNvbnZlcnNhdGlvbnMiKQogICAgICAgIHRvdGFsID0gYy5mZXRjaG9uZSgpWzBdCiAgICAgICAgCiAgICAgICAgcmV0dXJuIHsiaXRlbXMiOiBpdGVtcywgInRvdGFsIjogdG90YWx9CgojIC0tLSDnu5/orqHmjqXlj6MgLS0tCgpAYXBwLmdldCgiL2FwaS9zdGF0cyIpCmFzeW5jIGRlZiBnZXRfc3RhdHMoKToKICAgICIiIuiOt+WPlue7n+iuoeaVsOaNriIiIgogICAgd2l0aCBnZXRfZGIoKSBhcyBjb25uOgogICAgICAgIGMgPSBjb25uLmN1cnNvcigpCiAgICAgICAgCiAgICAgICAgYy5leGVjdXRlKCJTRUxFQ1QgQ09VTlQoKikgRlJPTSBrbm93bGVkZ2VfYmFzZSIpCiAgICAgICAga2JfY291bnQgPSBjLmZldGNob25lKClbMF0KICAgICAgICAKICAgICAgICBjLmV4ZWN1dGUoIlNFTEVDVCBDT1VOVCgqKSBGUk9NIGNvbnZlcnNhdGlvbnMiKQogICAgICAgIGNvbnZfY291bnQgPSBjLmZldGNob25lKClbMF0KICAgICAgICAKICAgICAgICBjLmV4ZWN1dGUoIlNFTEVDVCBDT1VOVChESVNUSU5DVCB2aXNpdG9yX2lkKSBGUk9NIGNvbnZlcnNhdGlvbnMiKQogICAgICAgIHZpc2l0b3JfY291bnQgPSBjLmZldGNob25lKClbMF0KICAgICAgICAKICAgICAgICByZXR1cm4gewogICAgICAgICAgICAia25vd2xlZGdlX2NvdW50Ijoga2JfY291bnQsCiAgICAgICAgICAgICJjb252ZXJzYXRpb25fY291bnQiOiBjb252X2NvdW50LAogICAgICAgICAgICAidmlzaXRvcl9jb3VudCI6IHZpc2l0b3JfY291bnQKICAgICAgICB9CgojID09PT09PT09PT09PT09IOWQr+WKqCA9PT09PT09PT09PT09PQppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgaW1wb3J0IHV2aWNvcm4KICAgIHBvcnQgPSBpbnQob3MuZW52aXJvbi5nZXQoIlBPUlQiLCA4MDAwKSkKICAgIHV2aWNvcm4ucnVuKGFwcCwgaG9zdD0iMC4wLjAuMCIsIHBvcnQ9cG9ydCkK
+"""
+智能客服后端 - FastAPI + SQLite + MiniMax AI
+"""
+import os
+import json
+import sqlite3
+import uuid
+import time
+from datetime import datetime, timedelta
+from typing import Optional, List
+from contextlib import contextmanager
+
+from fastapi import FastAPI, HTTPException, Request
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
+from pydantic import BaseModel
+import requests
+
+# ============== 配置 ==============
+DATABASE_PATH = os.path.join(os.path.dirname(__file__), "data", "smart_chat.db")
+MINIMAX_API_KEY = os.environ.get("MINIMAX_API_KEY", "")
+MINIMAX_BASE_URL = "https://api.minimax.io/v1"
+MODEL_NAME = "MiniMax-M2.7"
+
+# ============== 数据库初始化 ==============
+def init_db():
+    """初始化数据库"""
+    os.makedirs(os.path.dirname(DATABASE_PATH), exist_ok=True)
+    conn = sqlite3.connect(DATABASE_PATH)
+    c = conn.cursor()
+    
+    # 知识库表
+    c.execute("""
+        CREATE TABLE IF NOT EXISTS knowledge_base (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            question TEXT NOT NULL,
+            answer TEXT NOT NULL,
+            category TEXT DEFAULT 'general',
+            tags TEXT DEFAULT '[]',
+            usage_count INTEGER DEFAULT 0,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+    """)
+    
+    # 对话记录表
+    c.execute("""
+        CREATE TABLE IF NOT EXISTS conversations (
+            id TEXT PRIMARY KEY,
+            visitor_id TEXT NOT NULL,
+            messages TEXT DEFAULT '[]',
+            status TEXT DEFAULT 'active',
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+    """)
+    
+    # 访客表
+    c.execute("""
+        CREATE TABLE IF NOT EXISTS visitors (
+            id TEXT PRIMARY KEY,
+            name TEXT,
+            email TEXT,
+            metadata TEXT DEFAULT '{}',
+            first_visit TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            last_visit TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+    """)
+    
+    conn.commit()
+    conn.close()
+    print(f"✅ 数据库初始化完成: {DATABASE_PATH}")
+
+@contextmanager
+def get_db():
+    """数据库连接上下文管理器"""
+    conn = sqlite3.connect(DATABASE_PATH)
+    conn.row_factory = sqlite3.Row
+    try:
+        yield conn
+    finally:
+        conn.close()
+
+# ============== Pydantic 模型 ==============
+class QAItem(BaseModel):
+    question: str
+    answer: str
+    category: str = "general"
+    tags: List[str] = []
+
+class ChatRequest(BaseModel):
+    message: str
+    visitor_id: Optional[str] = None
+    conversation_id: Optional[str] = None
+
+class ChatResponse(BaseModel):
+    answer: str
+    conversation_id: str
+    sources: List[str] = []
+
+# ============== MiniMax AI 调用 ==============
+def call_minimax(prompt: str, context: str = "") -> str:
+    """调用 MiniMax AI"""
+    if not MINIMAX_API_KEY:
+        return "⚠️ AI服务未配置，请联系管理员设置 MINIMAX_API_KEY 环境变量"
+    
+    system_prompt = f"""你是一个专业的智能客服助手。请根据提供的知识库内容回答用户问题。
+
+知识库内容：
+{context}
+
+回答要求：
+1. 如果知识库中有相关内容，优先使用知识库内容回答
+2. 如果知识库中没有相关信息，礼貌地说明暂时无法回答，并引导用户联系人工客服
+3. 回答要简洁、专业、友好
+4. 不要编造知识库中没有的信息
+"""
+    
+    try:
+        response = requests.post(
+            f"{MINIMAX_BASE_URL}/chat/completions",
+            headers={
+                "Authorization": f"Bearer {MINIMAX_API_KEY}",
+                "Content-Type": "application/json"
+            },
+            json={
+                "model": MODEL_NAME,
+                "messages": [
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": prompt}
+                ],
+                "temperature": 0.7,
+                "max_tokens": 1024
+            },
+            timeout=30
+        )
+        result = response.json()
+        if "choices" in result and len(result["choices"]) > 0:
+            return result["choices"][0]["message"]["content"]
+        return "❌ AI响应格式错误"
+    except Exception as e:
+        return f"❌ AI服务调用失败: {str(e)}"
+
+def search_knowledge_base(query: str, top_k: int = 3) -> List[dict]:
+    """搜索知识库"""
+    with get_db() as conn:
+        c = conn.cursor()
+        # 简单的关键词匹配搜索
+        keywords = query.split()
+        if keywords:
+            pattern = "%" + "%".join(keywords) + "%"
+            c.execute("""
+                SELECT * FROM knowledge_base 
+                WHERE question LIKE ? OR answer LIKE ?
+                ORDER BY usage_count DESC
+                LIMIT ?
+            """, (pattern, pattern, top_k))
+        else:
+            c.execute("SELECT * FROM knowledge_base ORDER BY usage_count DESC LIMIT ?", (top_k,))
+        
+        rows = c.fetchall()
+        return [dict(row) for row in rows]
+
+# ============== FastAPI 应用 ==============
+app = FastAPI(title="智能客服 API", version="1.0.0")
+
+# CORS 配置
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+@app.on_event("startup")
+async def startup():
+    init_db()
+    print("🚀 智能客服服务已启动")
+
+# ============== API 路由 ==============
+
+# 健康检查
+@app.get("/health")
+async def health():
+    return {"status": "ok", "service": "smart-chat"}
+
+# --- 知识库管理 ---
+
+@app.post("/api/knowledge")
+async def add_knowledge(qa: QAItem):
+    """添加知识库条目"""
+    with get_db() as conn:
+        c = conn.cursor()
+        c.execute("""
+            INSERT INTO knowledge_base (question, answer, category, tags)
+            VALUES (?, ?, ?, ?)
+        """, (qa.question, qa.answer, qa.category, json.dumps(qa.tags)))
+        conn.commit()
+        return {"id": c.lastrowid, "message": "添加成功"}
+
+@app.get("/api/knowledge")
+async def list_knowledge(category: Optional[str] = None, page: int = 1, page_size: int = 20):
+    """获取知识库列表"""
+    with get_db() as conn:
+        c = conn.cursor()
+        if category:
+            c.execute("""
+                SELECT * FROM knowledge_base 
+                WHERE category = ?
+                ORDER BY updated_at DESC
+                LIMIT ? OFFSET ?
+            """, (category, page_size, (page-1)*page_size))
+        else:
+            c.execute("""
+                SELECT * FROM knowledge_base 
+                ORDER BY updated_at DESC
+                LIMIT ? OFFSET ?
+            """, (page_size, (page-1)*page_size))
+        
+        items = [dict(row) for row in c.fetchall()]
+        
+        c.execute("SELECT COUNT(*) FROM knowledge_base")
+        total = c.fetchone()[0]
+        
+        return {"items": items, "total": total, "page": page, "page_size": page_size}
+
+@app.put("/api/knowledge/{item_id}")
+async def update_knowledge(item_id: int, qa: QAItem):
+    """更新知识库条目"""
+    with get_db() as conn:
+        c = conn.cursor()
+        c.execute("""
+            UPDATE knowledge_base 
+            SET question = ?, answer = ?, category = ?, tags = ?, updated_at = CURRENT_TIMESTAMP
+            WHERE id = ?
+        """, (qa.question, qa.answer, qa.category, json.dumps(qa.tags), item_id))
+        conn.commit()
+        if c.rowcount == 0:
+            raise HTTPException(status_code=404, message="条目不存在")
+        return {"message": "更新成功"}
+
+@app.delete("/api/knowledge/{item_id}")
+async def delete_knowledge(item_id: int):
+    """删除知识库条目"""
+    with get_db() as conn:
+        c = conn.cursor()
+        c.execute("DELETE FROM knowledge_base WHERE id = ?", (item_id,))
+        conn.commit()
+        if c.rowcount == 0:
+            raise HTTPException(status_code=404, message="条目不存在")
+        return {"message": "删除成功"}
+
+# --- 聊天接口 ---
+
+@app.post("/api/chat", response_model=ChatResponse)
+async def chat(req: ChatRequest):
+    """处理用户消息"""
+    visitor_id = req.visitor_id or str(uuid.uuid4())
+    conversation_id = req.conversation_id or str(uuid.uuid4())
+    
+    # 搜索知识库
+    kb_results = search_knowledge_base(req.message)
+    
+    # 构建上下文
+    context = ""
+    sources = []
+    if kb_results:
+        for i, item in enumerate(kb_results, 1):
+            context += f"\n【相关问答 {i}】\n问题: {item['question']}\n回答: {item['answer']}\n"
+            sources.append(f"Q: {item['question']}")
+        
+        # 更新使用次数
+        with get_db() as conn:
+            c = conn.cursor()
+            for item in kb_results:
+                c.execute("UPDATE knowledge_base SET usage_count = usage_count + 1 WHERE id = ?", (item['id'],))
+            conn.commit()
+    
+    # 调用 AI
+    answer = call_minimax(req.message, context)
+    
+    # 保存对话记录
+    with get_db() as conn:
+        c = conn.cursor()
+        
+        # 获取现有消息
+        c.execute("SELECT messages FROM conversations WHERE id = ?", (conversation_id,))
+        row = c.fetchone()
+        messages = json.loads(row[0]) if row and row[0] else [] if row else []
+        
+        # 添加新消息
+        messages.append({
+            "role": "user",
+            "content": req.message,
+            "timestamp": datetime.now().isoformat()
+        })
+        messages.append({
+            "role": "assistant", 
+            "content": answer,
+            "timestamp": datetime.now().isoformat()
+        })
+        
+        # 更新或创建对话
+        c.execute("""
+            INSERT OR REPLACE INTO conversations (id, visitor_id, messages, updated_at)
+            VALUES (?, ?, ?, CURRENT_TIMESTAMP)
+        """, (conversation_id, visitor_id, json.dumps(messages)))
+        conn.commit()
+    
+    return ChatResponse(
+        answer=answer,
+        conversation_id=conversation_id,
+        sources=sources
+    )
+
+@app.get("/api/conversations/{conversation_id}")
+async def get_conversation(conversation_id: str):
+    """获取对话历史"""
+    with get_db() as conn:
+        c = conn.cursor()
+        c.execute("SELECT * FROM conversations WHERE id = ?", (conversation_id,))
+        row = c.fetchone()
+        if not row:
+            raise HTTPException(status_code=404, message="对话不存在")
+        return dict(row)
+
+@app.get("/api/conversations")
+async def list_conversations(page: int = 1, page_size: int = 50):
+    """获取对话列表"""
+    with get_db() as conn:
+        c = conn.cursor()
+        c.execute("""
+            SELECT id, visitor_id, status, created_at, updated_at,
+                   json_array_length(messages) as message_count
+            FROM conversations
+            ORDER BY updated_at DESC
+            LIMIT ? OFFSET ?
+        """, (page_size, (page-1)*page_size))
+        items = [dict(row) for row in c.fetchall()]
+        
+        c.execute("SELECT COUNT(*) FROM conversations")
+        total = c.fetchone()[0]
+        
+        return {"items": items, "total": total}
+
+# --- 统计接口 ---
+
+@app.get("/api/stats")
+async def get_stats():
+    """获取统计数据"""
+    with get_db() as conn:
+        c = conn.cursor()
+        
+        c.execute("SELECT COUNT(*) FROM knowledge_base")
+        kb_count = c.fetchone()[0]
+        
+        c.execute("SELECT COUNT(*) FROM conversations")
+        conv_count = c.fetchone()[0]
+        
+        c.execute("SELECT COUNT(DISTINCT visitor_id) FROM conversations")
+        visitor_count = c.fetchone()[0]
+        
+        return {
+            "knowledge_count": kb_count,
+            "conversation_count": conv_count,
+            "visitor_count": visitor_count
+        }
+
+# ============== 启动 ==============
+if __name__ == "__main__":
+    import uvicorn
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run(app, host="0.0.0.0", port=port)
