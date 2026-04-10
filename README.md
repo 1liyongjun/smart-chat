@@ -24,7 +24,7 @@
 
 ### 后端 (Go + Eino)
 
-\`\`\`bash
+```bash
 cd backend
 
 # 安装依赖
@@ -32,17 +32,17 @@ go mod tidy
 
 # 运行
 go run main.go -api-key="your-minimax-api-key"
-\`\`\`
+```
 
 后端运行在 http://localhost:8000
 
 ### 前端
 
-\`\`\`bash
+```bash
 cd frontend
 npm install
 npm run dev
-\`\`\`
+```
 
 前端运行在 http://localhost:3000
 
@@ -51,29 +51,30 @@ npm run dev
 
 ## 目录结构
 
-\`\`\`
+```
 smart-chat/
-├── backend/                    # Go + Eino 后端
-│   ├── main.go                # 主入口
-│   ├── go.mod                 # Go 模块定义
-│   ├── internal/
-│   │   ├── eino/
-│   │   │   └── minimax.go     # MiniMax ChatModel 实现 (Eino 接口)
-│   │   ├── handler/
-│   │   │   └── handler.go     # HTTP 处理器
-│   │   └── store/
-│   │       └── store.go       # SQLite 数据存储
-│   └── data/                   # 数据库文件目录
-├── frontend/                   # Next.js 前端
-│   ├── src/
-│   │   ├── app/
-│   │   │   ├── admin/         # 管理后台
-│   │   │   └── widget/        # 访客聊天页面
-│   │   └── components/
-│   │       └── ChatWidget.tsx # 嵌入聊天气泡组件
-│   └── package.json
-└── README.md
-\`\`\`
+├── backend/
+│   ├── main.go
+│   ├── go.mod
+│   ├── README.md
+│   └── internal/
+│       ├── eino/minimax.go
+│       ├── handler/handler.go
+│       └── store/store.go
+└── frontend/
+    ├── package.json
+    ├── next.config.js
+    ├── tsconfig.json
+    └── src/
+        ├── app/
+        │   ├── admin/page.tsx
+        │   ├── widget/page.tsx
+        │   ├── layout.tsx
+        │   ├── page.tsx
+        │   └── globals.css
+        └── components/
+            └── ChatWidget.tsx
+```
 
 ## 关于 Eino 框架
 
@@ -85,8 +86,8 @@ smart-chat/
 - **编排能力**: 支持 Chain、Graph 等复杂工作流编排
 
 本项目使用 Eino 的 ChatModel 接口封装了 MiniMax API，实现了:
-- \`Generate()\` - 普通对话生成
-- \`Stream()\` - 流式对话生成 (SSE)
+- `Generate()` - 普通对话生成
+- `Stream()` - 流式对话生成 (SSE)
 
 ## 部署
 
@@ -103,6 +104,6 @@ smart-chat/
 
 在您的网站 HTML 底部添加：
 
-\`\`\`html
+```html
 <script src="https://your-domain.com/widget.js"></script>
-\`\`\`
+```
