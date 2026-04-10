@@ -1,1 +1,59 @@
-IyDmmbrog73lrqLmnI3ns7vnu58KCuWfuuS6jiBNaW5pTWF4IEFJIOeahOefpeivhuW6k+mXruetlOWuouacjeezu+e7n++8jOaUr+aMgee9kemhteW1jOWFpeiBiuWkqeawlOazoeWSjOeuoeeQhuWQjuWPsOOAggoKIyMg5Yqf6IO954m55oCnCgotIPCfpJYgKipBSSDmmbrog73pl67nrZQqKiAtIOWfuuS6jiBNaW5pTWF4LU0yLjcg5qih5Z6LCi0g8J+TmiAqKuefpeivhuW6k+euoeeQhioqIC0g5re75Yqg44CB57yW6L6R44CB5Yig6Zmk6Zeu562U55+l6K+GCi0g8J+SrCAqKuiuv+WuouiBiuWkqemhtemdoioqIC0g54us56uL55qE6K6/5a6i6IGK5aSp55WM6Z2iCi0g8J+UlyAqKuW1jOWFpee7hOS7tioqIC0g5Y+v5bWM5YWl5Yiw5Lu75oSP572R56uZ55qE6IGK5aSp5rCU5rOh57uE5Lu2Ci0g8J+TiiAqKuaVsOaNrue7n+iuoSoqIC0g5p+l55yL5a+56K+d6YeP44CB6K6/5a6i5pWw562J57uf6K6h5pWw5o2uCgojIyDlv6vpgJ/lvIDlp4sKCiMjIyDlkI7nq68KCmBgYGJhc2gKY2QgYmFja2VuZApwaXAgaW5zdGFsbCAtciByZXF1aXJlbWVudHMudHh0CmV4cG9ydCBNSU5JTUFYX0FQSV9LRVk9InlvdXItYXBpLWtleSIKcHl0aG9uIG1haW4ucHkKYGBgCgrlkI7nq6/ov5DooYzlnKggaHR0cDovL2xvY2FsaG9zdDo4MDAwCgojIyMg5YmN56uvCgpgYGBiYXNoCmNkIGZyb250ZW5kCm5wbSBpbnN0YWxsCm5wbSBydW4gZGV2CmBgYAoK5YmN56uv6L+Q6KGM5ZyoIGh0dHA6Ly9sb2NhbGhvc3Q6MzAwMAoKLSDorr/lrqLpobXpnaI6IGh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC93aWRnZXQKLSDnrqHnkIblkI7lj7A6IGh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9hZG1pbgoKIyMg6YOo572yCgojIyMg5ZCO56uv6YOo572yCuaOqOiNkOS9v+eUqCBSYWlsd2F544CBUmVuZGVy44CBVmVyY2VsIFNlcnZlcmxlc3MgRnVuY3Rpb25zIOaIliBEb2NrZXIKCiMjIyDliY3nq6/pg6jnvbIK5o6o6I2Q5L2/55SoIFZlcmNlbOOAgU5ldGxpZnkg5oiWIENsb3VkZmxhcmUgUGFnZXMKCiMjIOW1jOWFpee9keermQoK5Zyo5oKo55qE572R56uZIEhUTUwg5bqV6YOo5re75Yqg77yaCgpgYGBodG1sCjxzY3JpcHQgc3JjPSJodHRwczovL3lvdXItZG9tYWluLmNvbS93aWRnZXQuanMiPjwvc2NyaXB0PgpgYGAKCiMjIOaKgOacr+agiAoKLSAqKuWQjuerryoqOiBQeXRob24gRmFzdEFQSSArIFNRTGl0ZQotICoq5YmN56uvKio6IE5leHQuanMgMTQgKyBUeXBlU2NyaXB0Ci0gKipBSSoqOiBNaW5pTWF4LU0yLjcK
+# 智能客服系统
+
+基于 MiniMax AI 的知识库问答客服系统，支持网页嵌入聊天气泡和管理后台。
+
+## 功能特性
+
+- 🤖 **AI 智能问答** - 基于 MiniMax-M2.7 模型
+- 📚 **知识库管理** - 添加、编辑、删除问答知识
+- 💬 **访客聊天页面** - 独立的访客聊天界面
+- 🔗 **嵌入组件** - 可嵌入到任意网站的聊天气泡组件
+- 📊 **数据统计** - 查看对话量、访客数等统计数据
+
+## 快速开始
+
+### 后端
+
+```bash
+cd backend
+pip install -r requirements.txt
+export MINIMAX_API_KEY="your-api-key"
+python main.py
+```
+
+后端运行在 http://localhost:8000
+
+### 前端
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+前端运行在 http://localhost:3000
+
+- 访客页面: http://localhost:3000/widget
+- 管理后台: http://localhost:3000/admin
+
+## 部署
+
+### 后端部署
+推荐使用 Railway、Render、Vercel Serverless Functions 或 Docker
+
+### 前端部署
+推荐使用 Vercel、Netlify 或 Cloudflare Pages
+
+## 嵌入网站
+
+在您的网站 HTML 底部添加：
+
+```html
+<script src="https://your-domain.com/widget.js"></script>
+```
+
+## 技术栈
+
+- **后端**: Python FastAPI + SQLite
+- **前端**: Next.js 14 + TypeScript
+- **AI**: MiniMax-M2.7
