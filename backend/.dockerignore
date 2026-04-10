@@ -1,0 +1,30 @@
+# Git
+.git
+.gitignore
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 测试文件
+*_test.go
+
+# 文档
+*.md
+README.md
+
+# Python (如果有遗留)
+*.py
+requirements.txt
+
+# 本地数据库文件（不要复制旧的）
+*.db
+
+# Docker 文件
+Dockerfile*
+docker-compose*.yml
+
+# 本地开发文件
+data/
