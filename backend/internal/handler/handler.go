@@ -59,8 +59,8 @@ type QAItem struct {
 
 // ChatRequest 聊天请求
 type ChatRequest struct {
-	Message       string `json:"message"`
-	VisitorID     string `json:"visitor_id"`
+	Message        string `json:"message"`
+	VisitorID      string `json:"visitor_id"`
 	ConversationID string `json:"conversation_id"`
 }
 
@@ -362,7 +362,6 @@ func (h *Handler) StreamChat(c *fiber.Ctx) error {
 	if err != nil {
 		return fiber.NewError(fiber.StatusInternalServerError, err.Error())
 	}
-	defer stream.Close()
 
 	c.Set("Content-Type", "text/event-stream")
 	c.Set("Cache-Control", "no-cache")
@@ -406,10 +405,10 @@ func (h *Handler) ProxyChat(c *fiber.Ctx) error {
 		return fiber.NewError(fiber.StatusBadRequest, "API key not configured")
 	}
 
-	body := c.Body()
+	reqBody := c.Body()
 	url := h.baseURL + "/chat/completions"
 
-	req, err := http.NewRequestWithContext(c.Context(), "POST", url, bytes.NewReader(body))
+	req, err := http.NewRequestWithContext(c.Context(), "POST", url, bytes.NewReader(reqBody))
 	if err != nil {
 		return fiber.NewError(fiber.StatusInternalServerError, err.Error())
 	}
@@ -423,7 +422,7 @@ func (h *Handler) ProxyChat(c *fiber.Ctx) error {
 	}
 	defer resp.Body.Close()
 
-	body, _ = io.ReadAll(resp.Body)
+	respBody, _ := io.ReadAll(resp.Body)
 	c.Set("Content-Type", "application/json")
-	return c.Send(body)
+	return c.Send(respBody)
 }
