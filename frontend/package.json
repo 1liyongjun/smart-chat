@@ -1,1 +1,24 @@
-ewogICJuYW1lIjogInNtYXJ0LWNoYXQtZnJvbnRlbmQiLAogICJ2ZXJzaW9uIjogIjEuMC4wIiwKICAicHJpdmF0ZSI6IHRydWUsCiAgInNjcmlwdHMiOiB7CiAgICAiZGV2IjogIm5leHQgZGV2IiwKICAgICJidWlsZCI6ICJuZXh0IGJ1aWxkIiwKICAgICJzdGFydCI6ICJuZXh0IHN0YXJ0IiwKICAgICJsaW50IjogIm5leHQgbGludCIKICB9LAogICJkZXBlbmRlbmNpZXMiOiB7CiAgICAibmV4dCI6ICJeMTQuMS4wIiwKICAgICJyZWFjdCI6ICJeMTguMi4wIiwKICAgICJyZWFjdC1kb20iOiAiXjE4LjIuMCIsCiAgICAic3dyIjogIl4yLjIuNCIsCiAgICAibHVjaWRlLXJlYWN0IjogIl4wLjMxMi4wIgogIH0sCiAgImRldkRlcGVuZGVuY2llcyI6IHsKICAgICJAdHlwZXMvbm9kZSI6ICJeMjAuMTEuMCIsCiAgICAiQHR5cGVzL3JlYWN0IjogIl4xOC4yLjQ4IiwKICAgICJAdHlwZXMvcmVhY3QtZG9tIjogIl4xOC4yLjE4IiwKICAgICJ0eXBlc2NyaXB0IjogIl41LjMuMyIKICB9Cn0K
+{
+  "name": "smart-chat-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "swr": "^2.2.4",
+    "lucide-react": "^0.312.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "typescript": "^5.3.3"
+  }
+}
