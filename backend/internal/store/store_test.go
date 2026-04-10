@@ -130,7 +130,7 @@ func TestDeleteKnowledge(t *testing.T) {
 	}
 	defer s.Close()
 
-	id1, _ := s.AddKnowledge("保留", "保留回答", "test", []string{})
+	_, _ := s.AddKnowledge("保留", "保留回答", "test", []string{})
 	id2, _ := s.AddKnowledge("删除", "删除回答", "test", []string{})
 
 	err = s.DeleteKnowledge(id2)
